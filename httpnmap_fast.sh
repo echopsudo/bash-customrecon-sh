@@ -21,7 +21,7 @@ echo "========= Running Directory Enumeration! ==========="
 
 for PORT in $PORTS
 do
-	gobuster dir -u http://$IP:$PORTS --wordlist /usr/share/wordlists/dirb/common.txt --no-error -q -t 64
+	gobuster dir -u http://$IP:$PORT --wordlist /usr/share/wordlists/dirb/common.txt --no-error -q -t 64
 	#echo "======== RUNNING VHOSTS SCANS ==========
 	#gobuster vhost -d http://$IP:$PORTS --wordlist /usr/share/wordlists/seclists/Discovery/DNS/deepmagic.com-prefixes-top50000.txt --no-error -q -t 64 | tee gobuster_vhost_fast.txt
 done >> gobuster_dir_fast.txt
