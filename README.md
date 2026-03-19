@@ -25,7 +25,7 @@ It processes discovered endpoints and extracts potential sensitive data patterns
 ## Tools Used
 - Nmap (network scanning)  
 - Gobuster (directory enumeration)  
-- cURL (HTTP requests)  
+- curl (HTTP requests)  
 - grep (pattern matching)  
 
 ---
