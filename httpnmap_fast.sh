@@ -3,6 +3,8 @@
 echo "NMAP HTTP Fast Scan"
 
 IP=$(cat ip.txt)
+#IP=$1 
+
 
 echo "[+] Starting Nmap"
 
