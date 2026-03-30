@@ -1,6 +1,12 @@
 #!/bin/bash
 
-echo "NMAP HTTP Fast Scan"
+echo "|--|	|---- |------ |-----| |\	|"
+echo "|__|	|	  |		  |		| | \	|"
+echo "|\	|---- |		  |		| |  \	|"
+echo "| \ 	|	  |		  |		| |   \	|"
+echo "|	 \  |---- |------ |-----| |    \|"
+
+echo "NMAP HTTP Fast Scan created by echopsudo"
 
 IP=$(cat ip.txt)
 #IP=$1 
