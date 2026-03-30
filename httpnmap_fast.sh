@@ -8,6 +8,13 @@ echo "|  \ |---- |------ |-----| |    \|"
 
 echo "NMAP HTTP Fast Scan created by echopsudo"
 
+if [ -s ip.txt ]; then
+    echo " "
+else
+    echo "No IP addresses provided!"
+	exit 1
+fi
+
 IP=$(cat ip.txt)
 #IP=$1 
 
