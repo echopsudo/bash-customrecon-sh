@@ -11,7 +11,7 @@ echo "NMAP HTTP Fast Scan created by echopsudo"
 if [ -s ip.txt ]; then
     echo " "
 else
-    echo "No IP addresses provided!"
+    echo "No IP addresses provided! Please add them in ip.txt!"
 	exit 1
 fi
 
