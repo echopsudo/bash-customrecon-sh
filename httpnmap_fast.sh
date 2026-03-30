@@ -15,6 +15,13 @@ else
 	exit 1
 fi
 
+if [ -s common_clues.txt ]; then
+    echo " "
+else
+    echo "No clue wordlist to search from, this may make findings clues like FLAG( harder! please add a wordlist in common_clues.txt"
+	exit 1
+fi
+
 IP=$(cat ip.txt)
 #IP=$1 
 
@@ -58,7 +65,7 @@ done >> fast_curl.txt
 
 wait
 
-grep -Ei -f secrets.txt fast_curl.txt | tee fast_grep_report.txt
+grep -Ei -f common_clues.txt fast_curl.txt | tee fast_grep_report.txt
 
 echo "============ SCAN FINISHED ========"
 
