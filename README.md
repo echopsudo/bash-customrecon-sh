@@ -33,5 +33,5 @@ It processes discovered endpoints and extracts potential sensitive data patterns
 ## Usage
 - chmod +x script_name.sh
 - echo "IP_ADRRESS" > ip.txt (This uses IP addresses from a txt file for personal convienence.)
-- ./httpnmap_fast
+- ./httpnmap_fast.sh
 
