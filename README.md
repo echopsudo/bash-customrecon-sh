@@ -1,5 +1,7 @@
 # bash-customrecon-sh
 
+# THIS PROJECT IS NO LONGER MAINTAINED BY ME, PLEASE CHECK OUT THE RENUM PROJECT #
+
 ## Disclaimer
 This project is intended for educational purposes and authorized penetration testing only.  
 Do not use this tool against systems or networks without explicit permission.
