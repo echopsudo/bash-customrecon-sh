@@ -1,5 +1,7 @@
 # bash-customrecon-sh
 
+#most of the description was written by an ai
+
 # THIS PROJECT IS NO LONGER MAINTAINED BY ME, PLEASE CHECK OUT THE RENUM PROJECT #
 
 ## Disclaimer
